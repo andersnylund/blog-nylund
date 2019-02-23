@@ -1,6 +1,6 @@
 ---
 title: I created a blog
-date: 2019-02-14
+date: 2019-02-23
 ---
 
 ![Sanity, Gatsby, and Netlify logo](logos.png)

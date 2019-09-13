@@ -3,11 +3,10 @@ module.exports = {
     title: 'andersnylund',
     author: 'Anders Nylund',
     description: 'Personal blog',
-    siteUrl: 'https://gatsby-starter-blog-demo.netlify.com/',
+    siteUrl: 'https://blog.andersnylund.com/',
     social: {
       twitter: 'ndrsnlnd',
-      instagram: 'anderskarlherman',
-      portfolio: 'andersnylund.com',
+      portfolio: 'https://andersnylund.com',
     },
   },
   plugins: [
@@ -59,8 +58,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Personal Blog of Anders Nylund`,
+        short_name: `andersnylund`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#ffffff`,

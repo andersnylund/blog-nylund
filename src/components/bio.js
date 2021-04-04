@@ -28,8 +28,8 @@ function Bio() {
               }}
             />
             <p>
-              <strong>{author}</strong> is a web developer who loves to
-              learn and build stuff. Find his portfolio from{' '}
+              I'm a web developer who loves to learn while building stuff. Find
+              my portfolio from{' '}
               <a href="https://www.andersnylund.com">andersnylund.com</a>
             </p>
           </div>

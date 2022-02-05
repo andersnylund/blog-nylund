@@ -4,7 +4,7 @@ import { useRouter } from 'next/router';
 import { Container } from '../components/Container';
 import { Header } from '../components/Header';
 import { Layout } from '../components/Layout';
-import PostBody from '../components/PostBody';
+import { PostBody } from '../components/PostBody';
 import { PostHeader } from '../components/PostHeader';
 import { PostTitle } from '../components/PostTitle';
 import { getAllPosts, getPostBySlug } from '../lib/api';
@@ -41,7 +41,6 @@ const Post = ({ post, morePosts }: Props) => {
                 title={post.title}
                 coverImage={post.coverImage}
                 date={post.date}
-                author={post.author}
               />
               <PostBody content={post.content} />
             </article>

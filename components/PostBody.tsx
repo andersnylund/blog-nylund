@@ -5,7 +5,7 @@ type Props = {
   content: string;
 };
 
-const PostBody: FC<Props> = ({ content }) => {
+export const PostBody: FC<Props> = ({ content }) => {
   return (
     <div className="max-w-2xl mx-auto">
       <div
@@ -15,5 +15,3 @@ const PostBody: FC<Props> = ({ content }) => {
     </div>
   );
 };
-
-export default PostBody;

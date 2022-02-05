@@ -1,6 +1,4 @@
 import Link from 'next/link';
-import { Author } from '../types';
-import { Avatar } from './Avatar';
 import { CoverImage } from './CoverImage';
 import { DateFormatter } from './DateFormatter';
 
@@ -9,7 +7,6 @@ type Props = {
   coverImage: string;
   date: string;
   excerpt: string;
-  author: Author;
   slug: string;
 };
 
@@ -18,7 +15,6 @@ export const PostPreview = ({
   coverImage,
   date,
   excerpt,
-  author,
   slug,
 }: Props) => {
   return (
@@ -35,7 +31,6 @@ export const PostPreview = ({
         <DateFormatter dateString={date} />
       </div>
       <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
-      <Avatar name={author.name} picture={author.picture} />
     </div>
   );
 };

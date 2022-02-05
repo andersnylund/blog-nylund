@@ -1,7 +1,5 @@
 import Link from 'next/link';
 import { FC } from 'react';
-import { Author } from '../types';
-import { Avatar } from './Avatar';
 import { CoverImage } from './CoverImage';
 import { DateFormatter } from './DateFormatter';
 
@@ -10,7 +8,6 @@ interface Props {
   coverImage: string;
   date: string;
   excerpt: string;
-  author: Author;
   slug: string;
 }
 
@@ -19,7 +16,6 @@ export const HeroPost: FC<Props> = ({
   coverImage,
   date,
   excerpt,
-  author,
   slug,
 }) => {
   return (
@@ -40,7 +36,6 @@ export const HeroPost: FC<Props> = ({
         </div>
         <div>
           <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
-          <Avatar name={author.name} picture={author.picture} />
         </div>
       </div>
     </section>

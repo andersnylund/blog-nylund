@@ -8,7 +8,6 @@ import { PostBody } from '../components/PostBody';
 import { PostHeader } from '../components/PostHeader';
 import { PostTitle } from '../components/PostTitle';
 import { getAllPosts, getPostBySlug } from '../lib/api';
-import { markdownToHtml } from '../lib/markdownToHtml';
 import { PostType } from '../types';
 
 interface Props {
@@ -69,14 +68,9 @@ export async function getStaticProps({ params }: Params) {
     'coverImage',
   ]);
 
-  const content = await markdownToHtml(post.content || '');
-
   return {
     props: {
-      post: {
-        ...post,
-        content,
-      },
+      post,
     },
   };
 }

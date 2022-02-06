@@ -9,7 +9,7 @@ export const Footer: FC = () => (
           href="https://github.com/andersnylund"
           className="font-bold hover:underline"
         >
-          Me on GitHub
+          My other stuff on GitHub
         </a>
       </div>
     </Container>

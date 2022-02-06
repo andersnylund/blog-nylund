@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import { FC } from 'react';
-import { CMS_NAME, HOME_OG_IMAGE_URL } from '../lib/constants';
 
 export const Meta: FC = () => {
   return (
@@ -35,9 +34,9 @@ export const Meta: FC = () => {
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta
         name="description"
-        content={`A statically generated blog example using Next.js and ${CMS_NAME}.`}
+        content="Stuff about web tech and other interesting things."
       />
-      <meta property="og:image" content={HOME_OG_IMAGE_URL} />
+      {/* FIXME: <meta property="og:image" content={HOME_OG_IMAGE_URL} />  */}
     </Head>
   );
 };

@@ -2,9 +2,6 @@
 title: I created a blog
 date: '2019-02-23'
 excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
-coverImage: ''
-ogImage:
-  url: ''
 ---
 
 ![Sanity, Gatsby, and Netlify logo](/assets/logos.png)

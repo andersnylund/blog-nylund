@@ -3,11 +3,8 @@ title: Supercharge your keyboard
 date: '2019-06-09'
 excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
 coverImage: '/assets/white-pok3r.jpg'
-ogImage:
-  url: '/assets/blog/dynamic-routing/cover.jpg'
+ogImageUrl: '/assets/white-pok3r.jpg'
 ---
-
-<!-- ![White Pok3r Keyboard](/assets/white-pok3r.jpg) -->
 
 I am using a modified keyboard layout and I think that it's great. Compared to a standard keyboard layout, it has made me a faster and more effective typer, but also helped in my problems with my sore wrists and elbow after long sessions at my desk and laptop. (That developers for some odd reason tend to have 🤔).
 

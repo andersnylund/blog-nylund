@@ -2,10 +2,8 @@ export interface PostType {
   slug: string;
   title: string;
   date: string;
-  coverImage: string;
+  coverImage?: string;
   excerpt: string;
-  ogImage: {
-    url: string;
-  };
+  ogImageUrl?: string;
   content: string;
 }

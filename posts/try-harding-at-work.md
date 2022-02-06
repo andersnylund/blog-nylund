@@ -2,8 +2,6 @@
 title: Try-harding at work
 date: '2021-12-31'
 excerpt: 'It’s cool to be casual'
-ogImage:
-  url: '/assets/blog/dynamic-routing/cover.jpg'
 ---
 
 Few yeas ago I was playing quite a bit of CS:GO. It was casual gaming with friends, but we still wanted to win the matches. We created some simple strategies and tactics, and with those tried to gradually improve our skills. We were playing at a level were sometimes we were matched with the highest ranks and sometimes with some of the lowest ranks. Because of this some enemy teams would notice that we were “trying hard” to win, and because of this they latched on the insult of calling us “try-hards”. I remember how shameful and demeaning it felt to be called that. The enemy team were successful in making us (or at least me) feel bad about it. Of cooourse, if the enemy teams would have been trying as hard as we, they would have won! But they didn’t want to do that, because that is not as fun as just playing casually. And by playing just casually you can then call out others for “try-hards” when they beat you. Because it’s cool to be casual.

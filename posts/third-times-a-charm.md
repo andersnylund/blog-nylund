@@ -2,8 +2,6 @@
 title: Third time's a charm
 date: '2018-12-16'
 excerpt: "For some time I've wanted to create my own personal site and a blog associated with it."
-ogImage:
-  url: '/assets/blog/dynamic-routing/cover.jpg'
 ---
 
 For some time I've wanted to create my own personal site and a blog associated with it. I've tried multiple different technologies and platforms to achieve this. I wanted to do this so that I could learn web technologies and additionally could express myself. Wrote about that in my first post [here](https://blog.andersnylund.com/hello).

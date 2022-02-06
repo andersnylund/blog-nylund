@@ -5,7 +5,7 @@ import { DateFormatter } from './DateFormatter';
 
 interface Props {
   title: string;
-  coverImage: string;
+  coverImage?: string;
   date: string;
   excerpt: string;
   slug: string;

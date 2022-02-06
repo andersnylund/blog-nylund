@@ -2,9 +2,6 @@
 title: The road to GraphQL
 date: '2019-01-05'
 excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
-coverImage: ''
-ogImage:
-  url: ''
 ---
 
 I'm continuing my path to becoming a fullstack developer that is not scared of either side of the web development stack. I saw that my next step in getting forward was learning GraphQL as both the backend and the frontend will benefit from it. I found [this book](https://www.robinwieruch.de/the-road-to-graphql-book/) on GraphQL and it seemed interesting. I've also noticed that I learn a lot better from reading than from watching videos or screencasts (will probably write a blog post about this sometime in the future)

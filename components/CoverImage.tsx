@@ -1,13 +1,18 @@
 import cn from 'classnames';
 import Link from 'next/link';
+import { FC } from 'react';
 
 type Props = {
   title: string;
-  src: string;
+  src?: string;
   slug?: string;
 };
 
-export const CoverImage = ({ title, src, slug }: Props) => {
+export const CoverImage: FC<Props> = ({ title, src, slug }) => {
+  if (!src) {
+    return null;
+  }
+
   const image = (
     <img
       src={src}

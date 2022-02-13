@@ -10,7 +10,7 @@ interface Props {
 export const MoreStories: FC<Props> = ({ posts }) => {
   return (
     <section>
-      <H2>More Posts</H2>
+      <H3>More Posts</H3>
       <Posts>
         {posts.map((post) => (
           <PostPreview
@@ -27,7 +27,7 @@ export const MoreStories: FC<Props> = ({ posts }) => {
   );
 };
 
-const H2 = styled.h2`
+const H3 = styled.h3`
   margin-bottom: 2rem;
   font-size: 1.875rem;
   line-height: 2.25rem;

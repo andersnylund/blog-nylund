@@ -26,11 +26,11 @@ export const HeroPost: FC<Props> = ({
       </ImageContainer>
       <HeroPostContainer>
         <div>
-          <H3>
+          <H2>
             <Link as={`/${slug}`} href="/[slug]">
               <a>{title}</a>
             </Link>
-          </H3>
+          </H2>
           <DateContainer>
             <DateFormatter dateString={date} />
           </DateContainer>
@@ -61,7 +61,7 @@ const HeroPostContainer = styled.div`
   }
 `;
 
-const H3 = styled.h3`
+const H2 = styled.h2`
   margin-bottom: 1rem;
   font-size: 2.25rem;
   line-height: 2.5rem;

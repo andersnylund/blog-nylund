@@ -1,6 +1,6 @@
-import cn from 'classnames';
 import Link from 'next/link';
 import { FC } from 'react';
+import styled from 'styled-components';
 
 type Props = {
   title: string;
@@ -13,17 +13,10 @@ export const CoverImage: FC<Props> = ({ title, src, slug }) => {
     return null;
   }
 
-  const image = (
-    <img
-      src={src}
-      alt={`Cover Image for ${title}`}
-      className={cn('shadow-sm', {
-        'hover:shadow-lg transition-shadow duration-200': slug,
-      })}
-    />
-  );
+  const image = <Image src={src} alt={`Cover Image for ${title}`} />;
+
   return (
-    <div className="sm:mx-0">
+    <div>
       {slug ? (
         <Link as={`/${slug}`} href="/[slug]">
           <a aria-label={title}>{image}</a>
@@ -34,3 +27,7 @@ export const CoverImage: FC<Props> = ({ title, src, slug }) => {
     </div>
   );
 };
+
+const Image = styled.img`
+  max-width: 100%;
+`;

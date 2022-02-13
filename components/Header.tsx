@@ -1,11 +1,32 @@
 import Link from 'next/link';
 import { FC } from 'react';
+import styled from 'styled-components';
 
 export const Header: FC = () => (
-  <h2 className="text-2xl md:text-4xl font-bold tracking-tight md:tracking-tighter leading-tight mb-20 mt-8">
+  <H2>
     <Link href="/">
-      <a className="hover:underline">andersnylund</a>
+      <a>andersnylund</a>
     </Link>
     .
-  </h2>
+  </H2>
 );
+
+const H2 = styled.div`
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: -0.025em;
+  line-height: 3.5rem;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+
+  @media (min-width: 48rem) {
+    font-size: 5rem;
+  }
+`;

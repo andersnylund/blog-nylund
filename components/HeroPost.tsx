@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { FC } from 'react';
+import styled from 'styled-components';
 import { CoverImage } from './CoverImage';
 import { DateFormatter } from './DateFormatter';
 
@@ -20,24 +21,62 @@ export const HeroPost: FC<Props> = ({
 }) => {
   return (
     <section>
-      <div className="mb-8 md:mb-16">
+      <ImageContainer>
         <CoverImage title={title} src={coverImage} slug={slug} />
-      </div>
-      <div className="md:grid md:grid-cols-2 md:gap-x-16 lg:gap-x-8 mb-20 md:mb-28">
+      </ImageContainer>
+      <HeroPostContainer>
         <div>
-          <h3 className="mb-4 text-4xl lg:text-5xl leading-tight">
+          <H3>
             <Link as={`/${slug}`} href="/[slug]">
-              <a className="hover:underline">{title}</a>
+              <a>{title}</a>
             </Link>
-          </h3>
-          <div className="mb-4 md:mb-0 text-lg">
+          </H3>
+          <DateContainer>
             <DateFormatter dateString={date} />
-          </div>
+          </DateContainer>
         </div>
         <div>
-          <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
+          <p>{excerpt}</p>
         </div>
-      </div>
+      </HeroPostContainer>
     </section>
   );
 };
+
+const ImageContainer = styled.div`
+  margin-bottom: 2rem;
+  @media (min-width: 48rem) {
+    margin-bottom: 4rem;
+  }
+`;
+
+const HeroPostContainer = styled.div`
+  margin-bottom: 5rem;
+
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+`;
+
+const H3 = styled.h3`
+  margin-bottom: 1rem;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  line-height: 1.25;
+`;
+
+const DateContainer = styled.div`
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+`;
+
+const P = styled.p`
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  line-height: 1.625;
+  margin-bottom: 1rem;
+`;

@@ -1,6 +1,7 @@
 import ErrorPage from 'next/error';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
+import styled from 'styled-components';
 import { Container } from '../components/Container';
 import { Header } from '../components/Header';
 import { Layout } from '../components/Layout';
@@ -28,7 +29,7 @@ const Post = ({ post, morePosts }: Props) => {
           <PostTitle>Loading…</PostTitle>
         ) : (
           <>
-            <article className="mb-32">
+            <Article>
               <Head>
                 <title>{post.title} | andersnylund</title>
                 {post.ogImageUrl && (
@@ -41,7 +42,7 @@ const Post = ({ post, morePosts }: Props) => {
                 date={post.date}
               />
               <PostBody content={post.content} />
-            </article>
+            </Article>
           </>
         )}
       </Container>
@@ -50,6 +51,10 @@ const Post = ({ post, morePosts }: Props) => {
 };
 
 export default Post;
+
+const Article = styled.article`
+  margin-bottom: 8rem;
+`;
 
 interface Params {
   params: {

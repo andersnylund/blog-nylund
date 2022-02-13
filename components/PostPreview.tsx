@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import styled from 'styled-components';
 import { CoverImage } from './CoverImage';
 import { DateFormatter } from './DateFormatter';
 
@@ -19,18 +20,49 @@ export const PostPreview = ({
 }: Props) => {
   return (
     <div>
-      <div className="mb-5">
+      <ImageContainer>
         <CoverImage slug={slug} title={title} src={coverImage} />
-      </div>
-      <h3 className="text-3xl mb-3 leading-snug">
+      </ImageContainer>
+      <H3>
         <Link as={`/${slug}`} href="/[slug]">
-          <a className="hover:underline">{title}</a>
+          <a>{title}</a>
         </Link>
-      </h3>
-      <div className="text-lg mb-4">
+      </H3>
+      <DateContainer>
         <DateFormatter dateString={date} />
-      </div>
-      <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
+      </DateContainer>
+      <P>{excerpt}</P>
     </div>
   );
 };
+
+const ImageContainer = styled.div`
+  margin-bottom: 1.25rem;
+`;
+
+const H3 = styled.h3`
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.375;
+
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+`;
+
+const DateContainer = styled.div`
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  margin-bottom: 1rem;
+`;
+
+const P = styled.p`
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  line-height: 1.625;
+  margin-bottom: 1rem;
+`;

@@ -1,4 +1,5 @@
 import { FC } from 'react';
+import styled from 'styled-components';
 import { PostType } from '../types';
 import { PostPreview } from './PostPreview';
 
@@ -9,10 +10,8 @@ interface Props {
 export const MoreStories: FC<Props> = ({ posts }) => {
   return (
     <section>
-      <h2 className="mb-8 text-3xl md:text-3xl font-bold tracking-tighter leading-tight">
-        More Posts
-      </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-x-16 lg:gap-x-32 gap-y-20 md:gap-y-32 mb-32">
+      <H2>More Posts</H2>
+      <Posts>
         {posts.map((post) => (
           <PostPreview
             key={post.slug}
@@ -23,7 +22,23 @@ export const MoreStories: FC<Props> = ({ posts }) => {
             excerpt={post.excerpt}
           />
         ))}
-      </div>
+      </Posts>
     </section>
   );
 };
+
+const H2 = styled.h2`
+  margin-bottom: 2rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+  line-height: 1.25;
+`;
+
+const Posts = styled.div`
+  margin-bottom: 8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+`;

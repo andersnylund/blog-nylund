@@ -1,17 +1,27 @@
-import { Container } from './Container';
 import { FC } from 'react';
+import styled from 'styled-components';
 
 export const Footer: FC = () => (
-  <footer className="bg-neutral-50 border-t border-neutral-200">
-    <Container>
-      <div className="py-28 flex flex-col lg:flex-row items-center">
-        <a
-          href="https://github.com/andersnylund"
-          className="font-bold hover:underline"
-        >
-          My other stuff on GitHub
-        </a>
-      </div>
-    </Container>
-  </footer>
+  <FooterContainer>
+    <div>
+      <a href="https://github.com/andersnylund">My other stuff on GitHub</a>
+    </div>
+  </FooterContainer>
 );
+
+const FooterContainer = styled.footer`
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  align-items: center;
+  background-color: hsl(0, 0%, 97%);
+  border-top: 0.0625rem hsl(0, 0%, 90%) solid;
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  padding: 4rem 0;
+`;

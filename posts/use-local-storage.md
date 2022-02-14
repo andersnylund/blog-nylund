@@ -1,7 +1,7 @@
 ---
 title: 'useLocalStorage hook with TypeScript'
-excerpt: "I found myself in a situation to constantly insert the same data into HTML forms over and over again while developing. The useState hook store the value in the component's state, but when refreshing the page or submitting the data the form data is reset."
 date: '2020-04-21'
+excerpt: "I found myself in a situation to constantly insert the same data into HTML forms over and over again while developing. The useState hook store the value in the component's state, but when refreshing the page or submitting the data the form data is reset."
 ---
 
 I found myself in a situation to constantly insert the same data into HTML forms over and over again while developing. The useState hook store the value in the component's state, but when refreshing the page or submitting the data the form data is reset.

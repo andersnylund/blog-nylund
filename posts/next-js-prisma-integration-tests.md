@@ -1,12 +1,12 @@
 ---
 title: Next.js and Prisma integration tests
 date: '2021-04-04'
-excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
+excerpt: 'A simple example of how to create integration tests with Next.js and Prisma.'
 ---
 
 ## TL;DR
 
-I simple example of how to create integration tests with Next.js and Prisma. Example repository found from [GitHub - Next.js and Prisma integration tests example](https://github.com/andersnylund/next-js-prisma-integration-tests)
+A simple example of how to create integration tests with Next.js and Prisma. Example repository found from [GitHub - Next.js and Prisma integration tests example](https://github.com/andersnylund/next-js-prisma-integration-tests)
 
 ## The beef
 

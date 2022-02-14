@@ -1,7 +1,7 @@
 ---
 title: Reading techniques for "boring" texts
 date: '2019-08-11'
-excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
+excerpt: 'Reading is easy, but reading and understanding at the same time is difficult and takes time.'
 ---
 
 _Reading is easy, but_ **reading and understanding at the same time** _is difficult and takes time._

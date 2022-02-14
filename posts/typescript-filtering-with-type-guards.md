@@ -1,7 +1,7 @@
 ---
 title: 'TypeScript – filtering arrays with type guards'
-excerpt: 'Filtering arrays and infering the type is possible in TypeScript with help of type guards.'
 date: '2021-03-06'
+excerpt: 'Filtering arrays and infering the type is possible in TypeScript with help of type guards.'
 ---
 
 Filtering arrays and infering the type is possible in TypeScript with help of type guards.

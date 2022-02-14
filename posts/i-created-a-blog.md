@@ -1,7 +1,7 @@
 ---
 title: I created a blog
 date: '2019-02-23'
-excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
+excerpt: 'MStack (JavaScript, APIs, and Markup) is a new buzzword in the web-world, and I am trying to de-mystify it.'
 ---
 
 ![Sanity, Gatsby, and Netlify logo](/assets/logos.png)

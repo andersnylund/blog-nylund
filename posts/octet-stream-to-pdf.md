@@ -1,7 +1,7 @@
 ---
 title: 'Azure Blob storage octet-stream to PDF'
 date: '2021-01-04'
-excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
+excerpt: 'This script reads the invalid file using the base64topdf library, decodes it, and saves it as a PDF that can be opened with any tool capable of reading PDF files.'
 ---
 
 Azure Blob storage saves PDFs in _application/octet-stream_ mime type. They can not be opened as is, as they first need to be base64 decoded. This script reads the invalid file using the **base64topdf** library, decodes it, and saves it as a PDF that can be opened with any tool capable of reading PDF files.

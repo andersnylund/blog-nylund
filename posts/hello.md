@@ -1,7 +1,7 @@
 ---
 title: 'Hello, hello!'
 date: '2018-08-25'
-excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
+excerpt: 'This site has been up for a while now just waiting for something to happen. Finally I got myself to write something here.'
 ---
 
 This site has been up for a while now just waiting for something to happen. Finally I got myself to write something here. Actually this is the 2nd blog I've created, but the first one had some problems so I took it down. To the point, starting a blog has for a long time been a dream of mine. Expressing myself has always been difficult for me and I think that this blog will help me to get better at it. Reflecting and writing down things I have learned or find interesting helps in the learning process and allows me to reflect back on myself and my learning.

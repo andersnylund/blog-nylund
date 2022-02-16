@@ -1,0 +1,6 @@
+Sitemap: https://blog.andersnylund.com/api/sitemap
+
+User-agent: *
+Allow: /*
+
+Disallow: /api/*

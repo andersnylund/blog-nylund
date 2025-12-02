@@ -1,3 +1,3 @@
 # Personal blog
 
-Personal blog at https://blog.nylund.com
+Personal blog at https://blog.nylund.co
